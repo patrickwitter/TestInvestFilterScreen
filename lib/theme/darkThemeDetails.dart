@@ -8,19 +8,20 @@
 
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:sizer/sizer.dart';
 
 TextTheme darkTextTheme = TextTheme(
   headline4: GoogleFonts.oxygen(
-    fontSize: 18,
+    fontSize: 18.sp,
     color: const Color(0xFFFFFFFF),
     fontWeight: FontWeight.w700,
   ),
   headline5: GoogleFonts.oxygen(
-    fontSize: 16,
+    fontSize: 16.sp,
     color: const Color(0xFFFFFFFF),
   ),
   button: GoogleFonts.oxygen(
-    fontSize: 10,
+    fontSize: 10.sp,
     color: const Color.fromRGBO(255, 255, 255, .3),
   ),
 );
@@ -33,7 +34,7 @@ TextButtonThemeData darkTextButton = TextButtonThemeData(
   style: TextButton.styleFrom(
     primary: const Color(0xFF48E3FF),
     textStyle: GoogleFonts.oxygen(
-      fontSize: 16,
+      fontSize: 16.sp,
       color: const Color(0xFF00101F),
     ),
   ),

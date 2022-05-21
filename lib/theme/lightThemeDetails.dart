@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:sizer/sizer.dart';
 
 /*
   headline4 for the main  title of the page
@@ -11,16 +12,16 @@ import 'package:google_fonts/google_fonts.dart';
 
 TextTheme lightTextTheme = TextTheme(
   headline4: GoogleFonts.oxygen(
-    fontSize: 18,
+    fontSize: 18.sp,
     color: const Color(0xFF00101F),
     fontWeight: FontWeight.w700,
   ),
   headline5: GoogleFonts.oxygen(
-    fontSize: 16,
+    fontSize: 16.sp,
     color: const Color(0xFF00101F),
   ),
   button: GoogleFonts.oxygen(
-    fontSize: 10,
+    fontSize: 10.sp,
     color: const Color(0xFF00101F),
   ),
 );
@@ -33,7 +34,7 @@ TextButtonThemeData lightTextButton = TextButtonThemeData(
   style: TextButton.styleFrom(
     primary: const Color(0xFF48E3FF),
     textStyle: GoogleFonts.oxygen(
-      fontSize: 16,
+      fontSize: 16.sp,
       color: const Color(0xFFFFFFFF),
     ),
   ),
