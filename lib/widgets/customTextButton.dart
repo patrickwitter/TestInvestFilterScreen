@@ -1,3 +1,5 @@
+// ignore_for_file: file_names
+
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
 
@@ -26,6 +28,7 @@ class CustomTextButton extends StatelessWidget {
           style: Theme.of(context).textTheme.headline5?.copyWith(
                 fontSize: 12.sp,
                 color: Theme.of(context).scaffoldBackgroundColor,
+                fontWeight: FontWeight.bold,
               ),
         ),
       ),

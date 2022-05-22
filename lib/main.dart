@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       builder: (context, orientation, deviceType) => MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'Filter Page',
-        themeMode: ThemeMode.light,
+        themeMode: ThemeMode.dark,
         darkTheme: AppTheme.dark,
         theme: AppTheme.light,
         home: const FilterPage(),
