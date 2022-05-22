@@ -4,9 +4,10 @@ import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
 
 import '../models/filters.dart';
-import '../widgets/filtersection.dart';
+
 import '../widgets/custom_textbutton.dart';
 import '../widgets/dropdown_button.dart';
+import '../widgets/filter_section.dart';
 
 class FilterBody extends StatelessWidget {
   const FilterBody({
