@@ -6,15 +6,15 @@ import 'package:flutter/material.dart';
 
 class AppTheme {
   static ThemeData light = ThemeData.light().copyWith(
-    scaffoldBackgroundColor: const Color(0xFFE5E5E5),
-    textButtonTheme: lightTheme.lightTextButton,
+    scaffoldBackgroundColor: const Color(0xFFFFFFFF),
+    cardColor: const Color(0xFF48E3FF),
     iconTheme: lightTheme.lightIcon,
     textTheme: lightTheme.lightTextTheme,
   );
 
   static ThemeData dark = ThemeData.dark().copyWith(
     scaffoldBackgroundColor: const Color(0xFF00101F),
-    textButtonTheme: darkTheme.darkTextButton,
+    cardColor: const Color(0xFF48E3FF),
     iconTheme: darkTheme.darkIcon,
     textTheme: darkTheme.darkTextTheme,
   );

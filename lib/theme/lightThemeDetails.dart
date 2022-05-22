@@ -19,10 +19,12 @@ TextTheme lightTextTheme = TextTheme(
   headline5: GoogleFonts.oxygen(
     fontSize: 16.sp,
     color: const Color(0xFF00101F),
+    fontWeight: FontWeight.bold,
   ),
   button: GoogleFonts.oxygen(
     fontSize: 10.sp,
     color: const Color(0xFF00101F),
+    fontWeight: FontWeight.bold,
   ),
 );
 
@@ -30,12 +32,12 @@ IconThemeData lightIcon = const IconThemeData(
   color: Color(0xFFD9D9D9),
 );
 
-TextButtonThemeData lightTextButton = TextButtonThemeData(
-  style: TextButton.styleFrom(
-    primary: const Color(0xFF48E3FF),
-    textStyle: GoogleFonts.oxygen(
-      fontSize: 16.sp,
-      color: const Color(0xFFFFFFFF),
-    ),
-  ),
-);
+// TextButtonThemeData lightTextButton = TextButtonThemeData(
+//   style: TextButton.styleFrom(
+//     backgroundColor: ,
+//     textStyle: GoogleFonts.oxygen(
+//       fontSize: 16.sp,
+//       color: const Color(0xFFFFFFFF),
+//     ),
+//   ),
+// );
