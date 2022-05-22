@@ -2,6 +2,7 @@
 
 import 'package:filter_page/widgets/FilterGrid.dart';
 import 'package:flutter/material.dart';
+import 'package:sizer/sizer.dart';
 
 class FilterSection extends StatelessWidget {
   const FilterSection({
@@ -37,7 +38,7 @@ class FilterSection extends StatelessWidget {
           ),
           Container(
             constraints: BoxConstraints(
-              maxHeight: MediaQuery.of(context).size.height * .3,
+              maxHeight: 30.h,
             ),
             child: child ??
                 FilterGrid(
