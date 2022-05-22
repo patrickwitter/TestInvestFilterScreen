@@ -44,8 +44,8 @@ class FilterBody extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 CustomDropDownButton(
-                  initialText: Filters.price[0],
-                  items: Filters.price,
+                  initialText: Filters.pricemin[0],
+                  items: Filters.pricemin,
                 ),
                 Text(
                   "to",
@@ -54,8 +54,8 @@ class FilterBody extends StatelessWidget {
                       ),
                 ),
                 CustomDropDownButton(
-                  initialText: Filters.price[0],
-                  items: Filters.price,
+                  initialText: Filters.pricemax[0],
+                  items: Filters.pricemax,
                 ),
               ],
             ),
