@@ -2,7 +2,7 @@
 
 import 'package:flutter/material.dart';
 
-import 'FilterButton.dart';
+import 'filterbutton.dart';
 
 class FilterGrid extends StatelessWidget {
   const FilterGrid({

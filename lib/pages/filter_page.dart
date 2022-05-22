@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
-import 'filterBody.dart';
+import 'filter_body.dart';
 
 class FilterPage extends StatelessWidget {
   const FilterPage({Key? key}) : super(key: key);

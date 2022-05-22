@@ -1,6 +1,6 @@
 // ignore_for_file: file_names
 
-import 'package:filter_page/widgets/FilterGrid.dart';
+import 'package:filter_page/widgets/filtergrid.dart';
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
 

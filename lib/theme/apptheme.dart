@@ -1,7 +1,7 @@
 // ignore_for_file: library_prefixes
 
-import 'package:filter_page/theme/lightThemeDetails.dart' as lightTheme;
-import 'package:filter_page/theme/darkThemeDetails.dart' as darkTheme;
+import 'package:filter_page/theme/lighttheme_details.dart' as lightTheme;
+import 'package:filter_page/theme/darktheme_details.dart' as darkTheme;
 import 'package:flutter/material.dart';
 
 class AppTheme {
