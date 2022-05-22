@@ -41,9 +41,9 @@ class FilterSection extends StatelessWidget {
             ),
             child: child ??
                 FilterGrid(
-                  buttonRatio: buttonRatio,
-                  crossAxisCount: crossAxisCount,
-                  filters: filters,
+                  buttonRatio: buttonRatio!,
+                  crossAxisCount: crossAxisCount!,
+                  filters: filters!,
                 ),
           )
         ],

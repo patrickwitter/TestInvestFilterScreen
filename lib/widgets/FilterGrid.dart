@@ -10,9 +10,9 @@ class FilterGrid extends StatelessWidget {
     required this.filters,
   }) : super(key: key);
 
-  final double? buttonRatio;
-  final int? crossAxisCount;
-  final List<String>? filters;
+  final double buttonRatio;
+  final int crossAxisCount;
+  final List<String> filters;
 
   @override
   Widget build(BuildContext context) {
@@ -21,8 +21,8 @@ class FilterGrid extends StatelessWidget {
       shrinkWrap: true,
       scrollDirection: Axis.vertical,
       gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-        childAspectRatio: buttonRatio!,
-        crossAxisCount: crossAxisCount!,
+        childAspectRatio: buttonRatio,
+        crossAxisCount: crossAxisCount,
         crossAxisSpacing: 10,
         mainAxisSpacing: 10,
       ),
@@ -31,7 +31,7 @@ class FilterGrid extends StatelessWidget {
           child: TextButton(
             onPressed: () => {},
             child: Text(
-              filters![index],
+              filters[index],
               style: Theme.of(context).textTheme.button,
             ),
           ),
@@ -41,7 +41,7 @@ class FilterGrid extends StatelessWidget {
           ),
         );
       },
-      itemCount: filters!.length,
+      itemCount: filters.length,
     );
   }
 }
