@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
+import 'filterBody.dart';
 
 class FilterPage extends StatelessWidget {
   const FilterPage({Key? key}) : super(key: key);
@@ -10,6 +11,7 @@ class FilterPage extends StatelessWidget {
       child: Scaffold(
         backgroundColor: Theme.of(context).scaffoldBackgroundColor,
         appBar: AppBar(
+          automaticallyImplyLeading: false,
           leadingWidth: 25.w,
           backgroundColor: Theme.of(context).scaffoldBackgroundColor,
           elevation: 0,
@@ -33,6 +35,10 @@ class FilterPage extends StatelessWidget {
               ),
             )
           ],
+        ),
+        body: const Padding(
+          padding: EdgeInsets.all(12.0),
+          child: FilterBody(),
         ),
       ),
     );
