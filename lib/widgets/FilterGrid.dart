@@ -2,6 +2,8 @@
 
 import 'package:flutter/material.dart';
 
+import 'FilterButton.dart';
+
 class FilterGrid extends StatelessWidget {
   const FilterGrid({
     Key? key,
@@ -27,18 +29,9 @@ class FilterGrid extends StatelessWidget {
         mainAxisSpacing: 10,
       ),
       itemBuilder: (context, index) {
-        return Container(
-          child: TextButton(
-            onPressed: () => {},
-            child: Text(
-              filters[index],
-              style: Theme.of(context).textTheme.button,
-            ),
-          ),
-          decoration: BoxDecoration(
-            color: Theme.of(context).iconTheme.color,
-            borderRadius: BorderRadius.circular(10),
-          ),
+        return FilterButton(
+          filter: filters[index],
+          action: () => {},
         );
       },
       itemCount: filters.length,
